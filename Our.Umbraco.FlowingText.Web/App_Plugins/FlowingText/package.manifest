@@ -1,0 +1,38 @@
+﻿{
+    "javascript": [
+        "~/App_Plugins/FlowingText/flowingtext.js"
+    ],
+    "gridEditors": [
+        {
+            "name": "Flowing text",
+            "alias": "flowingText",
+            "view": "/App_Plugins/FlowingText/editor.html",
+            "icon": "icon-article",
+            "config": {
+                "settings": {
+                    "source-property": {
+                        "label": "Source property",
+                        "key": "source-property",
+                        "description": "The source for the text",
+                        "view": "/umbraco/views/propertyeditors/dropdown/dropdown.html",
+                        "config": {
+                            "items": {
+                                "dummy": "Dummy",
+                                "dummy2": "Dummy 2"
+                            }
+                        }
+                    },
+                    "fragments": {
+                        "label": "Fragments to show",
+                        "key": "fragments",
+                        "description": "How many paragraphs or fragments to show",
+                        "view": "/umbraco/views/propertyeditors/integer/integer.html",
+                        "config": {
+
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

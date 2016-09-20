@@ -329,6 +329,7 @@
     <Content Include="Config\BaseRestExtensions.config" />
     <Content Include="Config\applications.config" />
     <Content Include="Config\404handlers.config" />
+    <Content Include="App_Plugins\FlowingText\package.manifest" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -337,6 +338,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Plugins\FlowingText\editor.html" />
+    <Content Include="App_Plugins\FlowingText\flowingtext.js" />
+    <Content Include="App_Plugins\FlowingText\tests\flowingtext.tests.js" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.controller.js" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.htm" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.resource.js" />
