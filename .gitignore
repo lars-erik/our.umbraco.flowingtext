@@ -243,3 +243,7 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/Our.Umbraco.FlowingText.Web/App_Browsers
+/Our.Umbraco.FlowingText.Web/App_Data
+/Our.Umbraco.FlowingText.Web/Umbraco
+/Our.Umbraco.FlowingText.Web/Umbraco_Client
